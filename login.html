@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login </title>
+    <link rel="stylesheet" href="./styles/sign.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Sign in</h1>
+                <span id="err">or use your account</span>
+                <input id="check-email" type="email" placeholder="Email" />
+                <input id="check-pass" type="password" placeholder="Password" />
+                <a href="#" style="color: rgb(89, 110, 243);">Forgot your password?</a>
+                <button id="signin-btn">Sign In</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <!-- <button class="ghost" id="signIn">Sign In</button> -->
+                    
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Enter your personal details and start journey with us</p>
+                    <a href="./sign.html" class="ghost logins" id="signUp">Sign Up</a>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/login.js"></script>
+</body>
+</html>
